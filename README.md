@@ -1,77 +1,124 @@
-# :moneybag: 온체인데이터를 활용한 비트코인 변동 ‘이상징후 경고 시스템’:chart_with_upwards_trend:
+# :moneybag: 토픽 모델링을 통한 주가 데이터 분석과 추천시스템:chart_with_upwards_trend:
 
 ## :mailbox_with_mail: 소개
-  <h1 align="center" style="font-size: 20px;"> 프로젝트의 주제는 "온체인데이터를 활용한 이상치 발견 및 변동성 예측 모델"입니다. 최근 암호화폐 시장이 급속한 성장을 보이며, 이에 따라 투자 위험도가 높아지고 있습니다. 이런 상황에서,  “크립토퀀트”가 제공하는 데이터를 활용하여 이상징후를 사전에 발견하고, 이를 통해 가격 변동성을 예측하는 것이 본 프로젝트의 핵심 목표입니다.</h1>
+  <h1 align="center" style="font-size: 20px;"> 프로젝트의 주제는 논문을 기반으로한 프로젝트로 논문에서 제시하는 효율적 시장 가설의 문제점과 한계를 인식하고 거래량에 영향을 미치는 관련 뉴스들의 주제를 활용하는 내용입니다. 이 논문을 활용하여 효율적 시장 가설의 한계를 극복하고 뉴스 기사들 안의 주제들을 분류 후 어떠 한 주제들이 시장 변동성을 설명하는지 발견하는 것입니다. 또한 이 프로젝트의 목표는 외생적 요인과 내생적 요인을 분리하고, 어떤 뉴스가 ‘중요한지’ 더 나아가 해당 뉴스의 내용이 주가에 ‘어떻게’ 반영되는지를 이해하는것 입니다. </h1>
 
-## :trophy: Team Codilocks
-> <img src="https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/9302ef69-6a0f-423c-9bca-447357ca4990" width="900" height="125">
-
+## :trophy: Team3
 | 사진 | 팀원 | 역할 |
 | --- | --- | --- |
-| <img src="https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/482d4bd8-0211-421e-be64-13f73e3a30b8" width="75" height="75">| 장동헌 | 주제 아이디어 제시, 분석기획 구체화, 시스템구현 코딩, 크롤링 코딩 |
-| <img src="https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/025a056f-7ac0-40f3-ae78-2f9839f80fca" width="75" height="75">| 박민정 | 자료제작, Notion/ppt 제작 및 관리, 모델 파라미터 코드수정 |
-| <img src="https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/7609d5ff-ab9f-4794-b61d-4f5bf941c8c4" width="75" height="75">| 피근우 | 데이터품질 관리, 일일보고 및 서류관리, 중간보고 발표, 크롤링 전처리작업 |
-| <img src="https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/df2915b7-9f9d-4984-a097-c45b889d1151" width="75" height="75">| 류태혁 | 프로젝트 팀장, 모델제작, Github코드정리, 프로젝트 발표 |
+| <img src="https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/482d4bd8-0211-421e-be64-13f73e3a30b8" width="75" height="75">| 장동헌 | 모델제작, 분석기획 구체화, 최종 발표 |
+| <img src="https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/025a056f-7ac0-40f3-ae78-2f9839f80fca" width="75" height="75">| 박예송 | 자료제작, 시각화, 중간 발표 |
+| <img src="https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/025a056f-7ac0-40f3-ae78-2f9839f80fca" width="75" height="75">| 윤담이 | 자료제작, Notion/ppt 제작 및 관리 |
+| <img src="https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/df2915b7-9f9d-4984-a097-c45b889d1151" width="75" height="75">| 류태혁 | 크롤링 및 전처리, 추천시스템, Github코드정리 |
 
-## :credit_card: 서비스 소개
-크립톤 퀀트에서 제공 하는 온체인 데이터 중 이상치를 찾아 비트코인 가격 그래프에서 변동성을 설명 할 수 있다고 생각되는 지표를 선정후 그중 선행한다고 판단되는 지표를 분석한다
->> 
+## :credit_card: 논문 소개
+비즈니스 뉴스에서 고품질 주제 추출 비정상적인 금융 시장 변동성 설명
 
-## :cyclone: 서비스
-
-1. ![대쉬보드_최종](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/7b8782fa-385b-4c8b-b67b-3adeacd3bcc8)
-
-
-
-2. ![텔레그램](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/9f05a380-a404-40ed-a92b-79c0f3d875f0)
-
-
-
-> > ### :bar_chart: 대쉬보드
+> > ### :bar_chart: 아이디어
 --------------------------------------------------------------------------------------------------------------------
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/d74ffda3-d658-44ea-bd8b-a05864c54bdf)
+"효율적 시장 가설(EMH)"에 기초한 신고전주의 금융 경제학에서는 가격 변동을 정보 흐름에 대한 거의 완벽하고 즉각적인 반응으로 간주합니다. 따라서 EMH에 따르면 가격 변동은 단순히 외생적인 뉴스를 반영할 뿐입니다.
+이 패러다임의 문제점은 실제로 실제 가격 변동을 특정 뉴스와 연관시키는 것이 매우 어렵다는 것입니다. 낮은 빈도이든 높은 빈도이든 가격 변화를 뉴스와 연관시키려는 많은 시도는 EMH에 대한 설득력 있는 뒷받침 증거를 찾는 데 실패했습니다.
+더욱이 EMH에서 예측한 것과 비교하여 가격이 너무 크게 움직이고 거래량이 너무 크다는 것이 오랫동안 인식되어 왔습니다.
 
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/4f3dba2a-58b0-4ee9-85e1-89a91360b290)
+<img width="428" alt="image" src="https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/efca14be-e23d-4465-9139-a31b6ea7a72e">
 
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/0a4711fe-05fd-4e3e-bc2d-fc3f76d361c0)
+이는 정보의 외생적 흐름보다 가격 역학에 더 많은 것이 있음을 시사합니다
+
+본 논문은
+(i) 기관 투자자를 위해 수집된 대규모 비즈니스 뉴스 데이터베이스를 사용하고
+(ii) 거래 활동에 영향을 미치는 관련 뉴스를 추출하는 새로운 방법론을 도입함으로써 위의 교착 상태를 타개하려는 시도를 나타냅니다.
+이 새로운 방법론을 통해 우리는 가격 역학의 내생적 구성 요소를 대부분 제거할 수 있습니다.
 
 
-> > ### :chart: 텔레그램
+
+> > ### :chart: 목표
 --------------------------------------------------------------------------------------------------------------------
-![텔레그램](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/d65b1559-cb02-41d8-b008-b19c204dd057)
-
-각 지표에서 이상치가 발생시 텔레그램을 통해서 알려주는 서비스 구현
+지금까지 해결되지 않은 문제는 외생적 요인과 내생적 요인을 분리하고 어떤 뉴스가 정말로 중요한지, 그리고 그것이 가격에 어떻게 반영 되는지를 이해하는 것
 
 
-## :moneybag: 아이디어의 기원
-<details>
-<summary>접기/펼치기 버튼</summary>
-<div markdown="1">
+> > ### :chart: 진행
+--------------------------------------------------------------------------------------------------------------------
+(a) 뉴스의 흐름을 관련 주제 및 관련 단어로 분리
+(b) 개별 주식의 거래량을 분리하여 완전한 상호 의존 네트워크를 구축
 
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/7592735c-c56f-4757-a82b-2e6cd9b9c841)
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/25821245-6dd5-4536-b24d-b343d38616cb)
+(i) 주제 모델링 기술을 적용하여 뉴스의 전체 흐름을 주제별 특징으로 분해
+(ii) 중요하지 않은 주제를 제거하기 위해 거래 활동에 미치는 영향을 동시에 추정하는 것으로 구성된 방법론의 흐름도를 제공합니다.
+(iii) 뉴스 충격으로 설명할 수 있는 거래 활동의 최고점 수를 정량화합니다.
 
-  기사링크:https://news.mt.co.kr/mtview.php?no=2023081417015674137
+<img width="407" alt="image" src="https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/9d0fa3ed-b108-443e-970e-adaf6cd33e4a">
 
-</div>
-</details>
 
-## :dollar: Dataset
-<details>
-<summary>접기/펼치기 버튼</summary>
-<div markdown="1">
+> > ### :chart: 방법론
+--------------------------------------------------------------------------------------------------------------------
 
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/b37da0d3-057b-4f90-8180-09518b330218)
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/aaf0377e-3f4b-46cc-8412-12b580878e66)
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/7a3e8bd2-0de4-4f57-98cc-4957ef536869)
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/6b9a0f1e-bd2e-447e-8de7-f09dde3be63c)
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/2dd9300e-b23b-48db-bf80-ebf81b1dd916)
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/8ae231ae-ff4c-419c-a118-eced4ffe78c5)
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/5945d126-8b8b-4142-bafd-d8794462b1d0)
+용어(예: Toyota)가 선택되고 관련 뉴스 레코드가 수집
+뉴스 정보를 "주제" 기능으로 분해
+LDA(Latent Dirichlet Allocation)라는 간단한 주제 모델링 기술을 적용
 
-</div>
-</details>
+<img width="287" alt="image" src="https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/f2a428d6-2b02-4a4d-a1ee-555fe5b9b78c">
 
+반복되는 문구를 제거
+각 주제에 대해 해당 주제 분포의 상위 6개단어에 초점을 맞추고 이 상위 6개 단어가 원치 않는 반복 문구의 단어 집합에 포함된 경우 해당 주제를 제거
+주식 시장 활동을 설명하는 주제도 삭제했습니다
+
+특정 주식의 거래량을 설명하는 데 있어 각 주제의 상대적 중요성은 양의 제약 조건이 있는 간단한 LASSO 회귀[28-30]에 의해 결정됩니다
+
+<img width="311" alt="image" src="https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/f76caaab-9b35-4fea-b7d5-3891311a2e9f">
+
+연구 기간(2003년 1월부터 2011년 6월) 동안의 거래량을 분석하여 전체 기간을 6개월 단위의 17개 기간으로 나누고 17개 기간 각각의 "피크 일자"를 별도로 식별했습니다.
+
+"Toyota"와 같은 각 용어에 대해 회귀 분석(2)을 통해 각 주제별로 설명할 수 있는 해당 예상 뉴스 볼륨의 비율(뉴스 볼륨에만 관심을 제한) "피크 데이"에 발견된 수치를 "설명된 거래량비율(FVE)"이라고 합니다.
+위에서 정의한 유용한 주제 중 일부만 총 FVE 99%에 도달하는 데 필요하다는 것을 알았습니다
+
+관측된 거래량과 회귀 분석(2)을 사용하여 피팅된 거래량을 비교 예측 거래량이 특정 피크일에 관찰된 거래량의30% 이상인 경우 성공으로 정의합니다
+볼륨이 성공적으로 설명된 피크 일수의 비율을 "설명된 피크 일률(FPE)"이라고 합니다
+
+Toyota의 경우FPE=0.70(설명된 피크 일의 총 수는 119일 중 83일입니다), Yahoo의 경우 FPE=0.94(설명된 피크 일의 총 수는 112입니다),
+FPE=0.98(총 피크 일 수는 112입니다) 설명된 피크 일수는 Best Buy의 경우 117일)이고 BP의 경우 FPE=0.98(설명된 피크 일수의 총 수는 117)입니다.
+
+회귀 분석의 품질은 참조 널을 사용하여 얻은 결과와 결과를 비교하여 추가로 평가할 수 있습니다.
+우리는 다른 회사와 관련된 뉴스를 교환합니다.
+예를 들어 Yahoo의 거래량을 설명하기 위해 BP와 관련된 뉴스 레코드를 사용하고 회귀 분석(2)에서 추출된 주제를 사용하고(그림 7의 왼쪽 패널) Yahoo와 관련된 뉴스 레코드를 사용하여 거래를 설명합니다.
+음의 계수를 허용하더라도 설명력은 상당히 감소 설명력의 이러한 실질적인 감소는 우리의 모든 테스트에서 발견되었으며 매일 규모로 수행된 회귀가 중요하지 않은 주제를 잘라내고 관련 주제를 식별하는 데 잘 수행된다는 것을 확인하였습니다.
+
+
+> > ### :chart: 결과
+--------------------------------------------------------------------------------------------------------------------
+우리는 간단한 주제 모델링 기술을 사용하여 거래 활동과 "주제별" 특징으로 분해된 뉴스 정보 사이에 간단한 정규 회귀 분석을 수행함으로써 주가 변동에 영향을 미치는 뉴스의 전체 상황이 자동으로 요약될 수 있음을 보여주었습니다.
+
+특히, 우리의 결과는 대량의 거래량이 뉴스의 흐름으로 설명될 수 있음을 보여줍니다.
+이러한 의미에서, 우리의 결과는 뉴스가 진정으로 참신하고 관련 금융 정보를 제공한다면 “과잉 거래”가 없음을 시사합니다.
+
+<img width="321" alt="image" src="https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/7fc955c7-7dfb-4912-b549-1f71e39d774b">
+
+
+> > ### :chart: 참고사항
+--------------------------------------------------------------------------------------------------------------------
+본 논문에서 지연 효과나 보다 정교한 비선형 동역학을 고려할 필요가 없는 간단한 방법론이 성공한 이유 중 하나는 아마도 높은 신호 대 잡음 비율을 가져온 뉴스 소스의 고품질 때문일 것입니다. 구체적으로 우리가 사용한 뉴스는 상당한 구독료를 지불하여 수집 회사에 인센티브를 제공하는 전문 투자자를 위해 수집되었습니다. 우리의 연구는 트윗이나 블로그와 같은 다른 표준 텍스트 정보와 비교하여 이러한 전문 금융 소스의 탁월한 관련성을 확인합니다. 표준 신문에서 제공되는 것과 비교하여 뉴스 레코드 수 측면에서 우리 데이터베이스의 크기도 금융 시장의 거래 활동에 영향을 미치는 중요한 주제를 추출하는 데 필수적이었습니다. 결론적으로, 우리는 우리의 결과가 금융 시장과 관련된 뉴스 정보에서 비롯된 금융 시장에 대한 외부 영향의 주요 원천을 요약한다고 믿습니다. 거래 활동을 설명하는 것 이상의 또 다른 과제는 광범위한 뉴스, 주제 및 해당 네트워크를 사용하여 가격 책정 및 재무 평가 전반을 설명하는 것입니다. 이는 향후 작업으로 남겨둡니다.
+
+
+
+
+## :dollar: “삼성전자” 기업 선정 이유
+
+> > ### :moneybag: 1.보편성
+--------------------------------------------------------------------------------------------------------------------
+외부 환경과 상황에 따라 폭발적으로 등락률이 변동되는 지수 (ex. 잡주, 대선주, 화이자)와 같은 기업은 보편성이 떨어집니다. 우리나라를 대표하는 삼성전자는 Market Approach를 적용하여 경제지표, 주식가치 평가 등으로 보편적으로 적용하는 데 용이합니다.
+<img width="297" alt="image" src="https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/1bb96186-4ad3-4a51-afb3-de6246055b86">
+
+> > ### :moneybag: 2.코스피 1위 시가총액
+--------------------------------------------------------------------------------------------------------------------
+삼성전자 402조 9,603억으로 2위 LG에너지솔루션과도 3배 차이가 난다. 삼성전자가 우리나라 상장기업에 차지하는 비중은 거의 30%. 미국 증시의 애플, 중국의 텐센트 ,일본 도요타 보다 각 국의 증시 지수에서 차지하는 비중이 높습니다. 삼성전자의 시총이 워낙 크고 무겁기 때문에 지수에 많은 영향을 줍니다.
+<img width="329" alt="image" src="https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/4a6b4818-b8e5-4ba5-9fe3-32248707aa29">
+
+> > ### :moneybag: 3.그 외 기업에 대한 설명
+--------------------------------------------------------------------------------------------------------------------
+<img width="299" alt="image" src="https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/9adb2bc4-007d-42cd-8fca-b5f9393e02b1">
+
+2012년~2016년 스마트폰 사업 호조 점유율 높여 나가지만 반도체 산업에서는 구조조정하며 업황 자체가 사이클을 타는 것으로 실적이 개선되진 못했습니다. 기관이나 외인 투자자는 이로 인해 중소형주의 투자로 눈을 돌리며 삼성전자의 비중을 축소할 수밖에 없는데 이 때문에 중소형주와 삼성전자 코스피 지수 등이 각각 어느 정도 상관관계의 움직임을 보입니다.
+
+2016년부터 반도체 수요 증가(암호화폐, 스마트폰, iot) 반도체 미세화 공정이 한계가 다다들고 구조조정의 마무리로 반도체 가격의 급등이 나왔습니다.
+삼성전자의 이익이 상승하고 주가도 같이 상승세가 있습니다.
 
 ## :crown: Usage
 
@@ -97,18 +144,18 @@
   > tradingview: https://kr.tradingview.com/
 
 ## :pencil: 프로젝트 파일트리
-![파일트리1](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/c8d20e98-7599-4ba8-b869-262d434232fa)
-![파일트리2](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/02b2315b-aa71-4be9-ae3c-a60a99f0b990)
-![파일트리3](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/750129f9-bfbe-4430-a505-0bdd510063a0)
+![논문구현 파일트리1](https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/510fcfee-3a12-4e84-bdf2-b3102ebfc5bf)
+![논문구현 파일트리2](https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/f777df36-bbea-49da-9d18-a82ea62de2a6)
+![논문구현 파일트리3](https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/b407032a-a958-4a53-94bf-4cb2efc08862)
 
 ## :end: END
-> 해당 프로젝트는 금융 데이터 분석 과정 파이널 프로젝트로 3조 Codilocks가 기획하였습니다.
+> 해당 프로젝트는 금융 데이터 분석 과정 논문기반 프로젝트로 TEAM3가 기획하였습니다.
  
 > 프로젝트 관련한 질문은 jdh5470417@gmail.com 여기로 문의주시면 감사하겠습니다
 >  > 장동헌: jdh5470417@gmail.com
 >  > 류태혁: xogur1578@gmail.com
->  > 박민정: qkralswjdqkd@gmail.com
->  > 피근우: pdcjsrnr@naver.com
+>  > 윤담이: qkralswjdqkd@gmail.com
+>  > 박예송: pdcjsrnr@naver.com
 
 ```bash
 pip install -r requirements.txt
