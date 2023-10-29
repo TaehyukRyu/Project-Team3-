@@ -1,4 +1,4 @@
-# :moneybag: 토픽 모델링을 통한 주가 데이터분석과 추천시스템 :chart_with_upwards_trend:
+# :moneybag: 토픽 모델링을 통한 주가 데이터 분석과 추천시스템
 
 ## :mailbox_with_mail: 소개
   <h1 align="center" style="font-size: 20px;"> 프로젝트의 주제는 논문을 기반으로한 프로젝트로 논문에서 제시하는 효율적 시장 가설의 문제점과 한계를 인식하고 거래량에 영향을 미치는 관련 뉴스들의 주제를 활용하는 내용입니다. 이 논문을 활용하여 효율적 시장 가설의 한계를 극복하고 뉴스 기사들 안의 주제들을 분류 후 어떠 한 주제들이 시장 변동성을 설명하는지 발견하는 것입니다. 또한 이 프로젝트의 목표는 외생적 요인과 내생적 요인을 분리하고, 어떤 뉴스가 ‘중요한지’ 더 나아가 해당 뉴스의 내용이 주가에 ‘어떻게’ 반영되는지를 이해하는것 입니다. </h1>
@@ -13,6 +13,8 @@
 
 ## :credit_card: 논문 소개
 비즈니스 뉴스에서 고품질 주제 추출 비정상적인 금융 시장 변동성 설명
+
+[High quality topic extraction from business news explains abnormal financial market volatility.pdf](https://github.com/TaehyukRyu/Project-Team3-/files/13197823/High.quality.topic.extraction.from.business.news.explains.abnormal.financial.market.volatility.pdf)
 
 > > ### :bar_chart: 아이디어
 --------------------------------------------------------------------------------------------------------------------
@@ -120,28 +122,15 @@ FPE=0.98(총 피크 일 수는 112입니다) 설명된 피크 일수는 Best Buy
 2016년부터 반도체 수요 증가(암호화폐, 스마트폰, iot) 반도체 미세화 공정이 한계가 다다들고 구조조정의 마무리로 반도체 가격의 급등이 나왔습니다.
 삼성전자의 이익이 상승하고 주가도 같이 상승세가 있습니다.
 
-## :crown: Usage
 
-> ### :slot_machine: 사용 모델
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/f4fd8e5b-c795-4cbf-a2e9-6e797c3e4944)
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/4e673aa8-f26c-4353-ab6f-3ba5c096ad86)
-![image](https://github.com/TaehyukRyu/Project-by-Coldilocks/assets/141690029/b10b5b93-5116-44c2-9ac1-ce2d940980a8)
-
-> ### :hammer: 사용 기술 및 라이브러리
+### :hammer: 사용 기술 및 라이브러리
 > > Language: Python
 
-> > Environment: Vscode, Pycham
+> > Environment: Colab, Pycham
 
-> > Crolling and Api tools: Selenium, Beautiful Soup, Pyautogui, Telegram, asyncio
+> > Crolling and Api tools: Selenium, Beautiful Soup
 
-> > Library: Pandas, Numpy, Scikit-learn, Streamlit, Plotly, Maplotlib, Seabron, Y-finance, Ccxt
-
-## :beginner: Reference and project link
-  > Telegram: https://t.me/+8hSXtgL02rRhMTJl
-
-  > cryptoquant: https://cryptoquant.com/ko
-
-  > tradingview: https://kr.tradingview.com/
+> > Library: Pandas, Numpy, Lasso Regression, LDA, Word Cloud, SNA, Maplotlib, Seabron, Konlpy, Gensim
 
 ## :pencil: 프로젝트 파일트리
 ![논문구현 파일트리1](https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/510fcfee-3a12-4e84-bdf2-b3102ebfc5bf)
