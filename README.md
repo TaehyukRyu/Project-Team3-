@@ -143,8 +143,8 @@ FPE=0.98(총 피크 일 수는 112입니다) 설명된 피크 일수는 Best Buy
 > 프로젝트 관련한 질문은 jdh5470417@gmail.com 여기로 문의주시면 감사하겠습니다
 >  > 장동헌: jdh5470417@gmail.com
 >  > 류태혁: xogur1578@gmail.com
->  > 윤담이: qkralswjdqkd@gmail.com
->  > 박예송: pdcjsrnr@naver.com
+>  > 윤담이: 
+>  > 박예송: pysong1004@gmail.com
 
 ```bash
 pip install -r requirements.txt
