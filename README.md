@@ -136,6 +136,7 @@ FPE=0.98(총 피크 일 수는 112입니다) 설명된 피크 일수는 Best Buy
 > > Library: Pandas, Numpy, Lasso Regression, LDA, Word Cloud, SNA, Maplotlib, Seabron, Konlpy, Gensim
 
 ## :pencil: 프로젝트 파일트리
+> ## 프로젝트 링크: https://drive.google.com/drive/folders/1H5lGqAs-wz7Z0_O58Gfb9VWYVqgvCUk-?usp=drive_link
 ![논문구현 파일트리1](https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/510fcfee-3a12-4e84-bdf2-b3102ebfc5bf)
 ![논문구현 파일트리2](https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/f777df36-bbea-49da-9d18-a82ea62de2a6)
 ![논문구현 파일트리3](https://github.com/TaehyukRyu/Project-Team3-/assets/141690029/b407032a-a958-4a53-94bf-4cb2efc08862)
